@@ -28,8 +28,7 @@ def question1(matriz = [], posição = 25, numero = 100, mult = 25, tamanho = 50
         if b[i] > numero and accumulator < posição:
             bigger = True
             break
-    print(b)
-    print(bigger)
+
     if bigger == False:
         c = b[-mult:]
         for i in c:
@@ -40,7 +39,3 @@ def question1(matriz = [], posição = 25, numero = 100, mult = 25, tamanho = 50
     if accumulator == True:
         string = f"Somatório: {sum(b)}\nmatriz: {b}"
         return string
-
-        
-def question2():
-    """Função que quando passada """
