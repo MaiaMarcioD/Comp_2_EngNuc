@@ -43,7 +43,6 @@ def question2(qtd_car):
                     card = i
                     card_index = matrix.index(card)
 
-                    break
     
     return prize_draw, card, card_index
 
