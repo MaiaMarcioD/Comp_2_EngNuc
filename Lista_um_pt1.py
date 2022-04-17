@@ -52,7 +52,6 @@ def question1B(matrix):
             match accumulator:
                 case 1:
 
-                    final_matrix.append('Jogador: ')
                     final_matrix.append(j)
 
                 case 2:
@@ -74,9 +73,29 @@ def question1B(matrix):
                             matches = 7
                 case 3:
 
-                        final_matrix.append("Média de gols: ")
                         final_matrix.append((j / matches))
                         accumulator = 0
 
     return final_matrix
 
+
+def main():
+
+    a = question1A
+    b = question1B(a)
+    accumutalor = 0
+    matrix = []
+
+    for i in b:
+        if accumutalor % 2 != 0:
+            matrix.append(i)
+
+    c = max(matrix)
+    d = matrix.index(c)
+    if d == 1:
+        d = 0
+
+    print(f"Artilheiro de ouro: {b[d*2]}")
+
+if __name__ == "__main__":
+    main()
