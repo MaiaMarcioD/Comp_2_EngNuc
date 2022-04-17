@@ -22,7 +22,7 @@ def question1A():
 
             case 2:
 
-                b = str(input("Digite até qual rodada o mesmo atuou (Oitavas, Oitavas, Quartas, Semi, Final): "))
+                b = str(input("Digite até qual rodada o mesmo atuou (Classificatórias, Oitavas, Quartas, Semi, Final): "))
                 matrix.append(b)
 
             case 3:
