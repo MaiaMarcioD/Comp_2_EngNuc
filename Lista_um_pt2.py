@@ -5,7 +5,7 @@ from random import randint as rt
 
 
 def question2(qtd_car):
-    """Bingo!!! Dados os números de cartelas participante, as cria: int -> [[],[],...]"""
+    """Bingo!!! Dados os números de cartelas participante, as cria e realiza o sorteio: int -> tuple(list[..],list[..], int)"""
 
     matrix = []
     prize_draw= []
