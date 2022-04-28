@@ -1,0 +1,36 @@
+from sala import Sala
+
+def main():
+    sala = Sala(10, 10)
+    sala.criaArray()
+    sala.criaPessoa("marcio")
+    sala.alocarPessoa("marcio", 2, 5)
+    print(sala)
+    sala.movimentar("marcio", "cima")
+    print(sala)
+    sala.movimentar("marcio", "direita")
+    print(sala)
+    sala.movimentar("marcio", "direita")
+    print(sala)
+    sala.movimentar("marcio", "direita")
+    print(sala)
+    sala.movimentar("marcio", "direita")
+    print(sala)
+    sala.movimentar("marcio", "baixo")
+    print(sala)
+    sala.movimentar("marcio", "direita")
+    print(sala)
+    sala.movimentar("marcio", "esquerda")
+    print(sala)
+    sala.criaPessoa("Mestre")
+    sala.alocarPessoa("Mestre", 5, 2)
+    sala.movimentar("Mestre", "cima")
+    print(sala)
+    sala.movimentar("Mestre", "cima")
+    print(sala)
+    sala.movimentar("Mestre", "direita")
+    print(sala)
+    
+if __name__ == "__main__":
+    main()
+
